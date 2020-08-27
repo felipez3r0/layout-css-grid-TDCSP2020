@@ -1,0 +1,29 @@
+html,body{
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 50px auto auto 50px;
+    grid-template-columns: 1fr 4fr;
+}
+
+.topo{
+    background-color: #b7b7b7;
+    grid-row: 1/2;
+    grid-column: 1/3;
+}
+.menu{
+    background-color: #cfe2f3;
+    grid-row: 2/4;
+    grid-column: 1/2;
+}
+.rodape{
+    background-color: #b7b7b7;
+    grid-row: 4/5;
+    grid-column: 1/3;    
+}
+
+.banner{background-color: #d9ead3;}
+.conteudo{background-color: #eeeeee;}
